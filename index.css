@@ -1,0 +1,103 @@
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+    
+    .container{
+        border-radius: 10px;
+        display: flex;
+        margin:  auto ;
+        width: 50%;
+        padding: 1rem;
+
+    }
+    h1{
+        font-family: "Big Shoulders Display", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        color:  hsla(0, 0%, 100%, 0.75);
+    }
+    p{
+        font-family: "Lexend Deca", sans-serif;
+        font-weight: 400;
+        color:  hsla(0, 0%, 100%, 0.75);
+        line-height: 1.5rem;
+
+    }
+    
+    .first{
+        background-color:  hsl(31, 77%, 52%);
+
+        
+    }
+    .first div{
+        margin: 30px;
+        height: 400px;
+        width: 200px;
+        
+    }
+    .second div{
+        margin: 30px;
+        height: 400px;
+        width: 200px;
+    }
+    .third div{
+        margin: 30px;
+        height: 400px;
+        width: 200px;
+    }
+    .second{
+        background-color: hsl(184, 100%, 22%);
+        
+    }
+    .third{
+        background-color: hsl(179, 100%, 13%);
+       
+    }
+     .first .footer{
+        background-color:white;
+        padding: 15px;
+        width: max-content;
+        border-radius: 20px;
+        color:hsl(31, 77%, 52%) ;
+        margin-top: 80px;
+
+    }
+    .first .footer:hover{
+        cursor: pointer;
+        background-color:hsl(31, 77%, 52%);
+        color: white;
+        border: 1px solid white;
+    }
+    .second .footer{
+        background-color:white;
+        padding: 15px;
+        width: max-content;
+        border-radius: 20px;
+        color: hsl(184, 100%, 22%);
+        margin-top: 80px;
+    }
+    .second .footer:hover{
+        cursor: pointer;
+        background-color:hsl(184, 100%, 22%);
+        color: white;
+        border: 1px solid white;
+
+    }
+    .third .footer{
+        background-color:white;
+        padding: 15px;
+        width: max-content;
+        border-radius: 20px;
+        color:hsl(179, 100%, 13%); 
+        margin-top: 80px;
+    }
+    .third .footer:hover{
+        cursor: pointer;
+        background-color:hsl(179, 100%, 13%);
+        color: white;
+        border: 1px solid white;
+
+    }
